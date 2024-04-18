@@ -1,7 +1,7 @@
 {
-    "name": "ooksanen/acf-focuspoint",
-    "description": "Adds a image focus field",
-    "type": "wordpress-muplugin",
+    "name": "ionata/wp-plugin-acf-focuspoint",
+    "description": "Adds an ACF image field with a focus-point",
+    "type": "wordpress-plugin",
     "license": "MIT",
     "funding": [
         {
@@ -25,5 +25,11 @@
             "type":"composer",
             "url":"https://wpackagist.org"
         }
-    ]
+    ],
+    "require": {
+        "composer/installers": "^1.0"
+    },
+    "extra": {
+        "installer-name": "acf-focuspoint"
+    }
 }
